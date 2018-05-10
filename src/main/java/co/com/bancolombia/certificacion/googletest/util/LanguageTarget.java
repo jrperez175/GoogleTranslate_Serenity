@@ -11,6 +11,9 @@ public class LanguageTarget {
 		case Language.ENGLISH:
 			return GoogleTranslatePage.SOURCE_LANGUAGE_OPTION_ENGLISH;
 		
+		case Language.JAVANES:
+			return GoogleTranslatePage.SOURCE_LANGUAGE_OPTION_JAVANES;
+			
 		default:
 			return GoogleTranslatePage.SOURCE_LANGUAGE_OPTION_ENGLISH;
 		}

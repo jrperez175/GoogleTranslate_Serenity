@@ -52,7 +52,7 @@ public class GoogleTranslateStepDefinitios {
 		nelson.attemptsTo(Translate.the(new TranslateExpression(word, sourceLanguage, targetLanguage)));
 	}
 
-	@Then("^he would se the word (.*) in the screen$")
+	@Then("^he would see the word (.*) in the screen$")
 	public void theUserShouldSeeTheExpectedWord(String expectedWord) throws Exception {
 	    
 	    //throw new PendingException();
