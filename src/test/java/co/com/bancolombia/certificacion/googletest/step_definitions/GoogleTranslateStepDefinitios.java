@@ -44,7 +44,7 @@ public class GoogleTranslateStepDefinitios {
 		nelson.wasAbleTo(GoTo.theApp(GOOGLE_TRASLATE_BUTTON));
 	}
 
-	@When("^he translates the word (.*) from (.*) to (.*)$")
+	@When("^he translates the (.*) from (.*) to (.*)$")
 	public void theUserTranslatesTheWordFromTo(String word, String sourceLanguage, String targetLanguage) throws Exception {
 	    
 	    //throw new PendingException();
