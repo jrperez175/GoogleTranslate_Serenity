@@ -24,12 +24,12 @@ public class Translate implements Task{
 	public <T extends Actor> void performAs(T actor) {
 		
 		actor.attemptsTo(Click.on(GoogleTranslatePage.SOURCE_LANGUAGE_BUTTON));
-		//actor.attemptsTo(Click.on(LanguageTarget.getSourceLanguageTarget(translateExpression.getSourceLanguage())));
-		actor.attemptsTo(Click.on(GoogleTranslatePage.SOURCE_LANGUAGE_OPTION));
+		actor.attemptsTo(Click.on(LanguageTarget.getSourceLanguageTarget(translateExpression.getSourceLanguage())));
+		//actor.attemptsTo(Click.on(GoogleTranslatePage.SOURCE_LANGUAGE_OPTION));
 		
 		actor.attemptsTo(Click.on(GoogleTranslatePage.TARGET_LANGUAGE_BUTTON));
-		//actor.attemptsTo(Click.on(LanguageTarget.getTargetLanguageTarget(translateExpression.getTargetLanguage())));
-		actor.attemptsTo(Click.on(GoogleTranslatePage.TARGET_LANGUAGE_OPTION));
+		actor.attemptsTo(Click.on(LanguageTarget.getTargetLanguageTarget(translateExpression.getTargetLanguage())));
+		//actor.attemptsTo(Click.on(GoogleTranslatePage.TARGET_LANGUAGE_OPTION));
 		
 		actor.attemptsTo(Enter.theValue(translateExpression.getWord()).into(GoogleTranslatePage.SOURCE_LANGUAGE_TEXT_AREA));
 		actor.attemptsTo(Click.on(GoogleTranslatePage.TRANSLATE_BUTTON));

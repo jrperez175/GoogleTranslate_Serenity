@@ -1,1 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Google Translate" skipped="0" tests="2" time="30.87" timestamp="2018-05-11 11:31:17"><testcase name="Translate from English to Spanish"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Google Translate" skipped="0" tests="2" time="81.28" timestamp="2018-05-14 07:42:00"><testcase name="Translate from English to Spanish"><failure message="The following error occurred: Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">The following error occurred: Expected enabled element was not enabled</failure><system-err>The following error occurred: Expected enabled element was not enabled&#13;
+co.com.bancolombia.certificacion.googletest.tasks.Translate.performAs(Translate.java:27)&#13;
+co.com.bancolombia.certificacion.googletest.step_definitions.GoogleTranslateStepDefinitios.theUserTranslatesTheWordFromTo(GoogleTranslateStepDefinitios.java:52)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)&#13;
+</system-err></testcase></testsuite>

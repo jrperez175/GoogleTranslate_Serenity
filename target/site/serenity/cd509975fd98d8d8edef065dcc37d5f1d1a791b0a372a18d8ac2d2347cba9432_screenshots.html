@@ -111,7 +111,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-05-2018 11:31</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-05-2018 19:42</span>
     <br style="clear:left"/>
 </div>
 
@@ -148,9 +148,9 @@ To translate a word
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Translate from English to Spanish
+                                <span class="failing-color">Translate from English to Spanish
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -166,61 +166,124 @@ To translate a word
 
     <div class="story-title">
         <h3>Scenario:</h3>
-        <div class="scenario">Given that nelson opens his browser al google home page<br>And he goes to google translator<br>When he translates the &lt;word&gt; from &lt;SourceLenguage&gt; to &lt;targetLenguage&gt;<br>Then he would see the word queso in the screen</div>
+        <div class="scenario">Given that nelson opens his browser al google home page<br>And he goes to google translator<br>When he translates the &lt;word&gt; from &lt;sourceLenguage&gt; to &lt;targetLenguage&gt;<br>Then he would see the word queso in the screen</div>
     </div>
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Element should be enabled exception: The following error occurred: Expected enabled element was not enabled">
+                            Element should be enabled exception: The following error occurred: Expected enabled element was not enabled
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>The following error occurred: Expected enabled element was not enabled</pre>
+                                    </h5>
+                                    co.com.bancolombia.certificacion.googletest.tasks.Translate.performAs(Translate.java
+                                    :27) <br>
+                                    co.com.bancolombia.certificacion.googletest.step_definitions.GoogleTranslateStepDefinitios.theUserTranslatesTheWordFromTo(GoogleTranslateStepDefinitios.java
+                                    :52) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                                    org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java
+                                    :86) <br>
+                                    org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java
+                                    :38) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
+                                    :538) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
+                                    :760) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java
+                                    :460) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java
+                                    :206) <br>
+                            </div>
+
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="stacktraceModalLabel">
+                                        Caused by: org.openqa.selenium.TimeoutException
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                        <pre>Expected condition failed: waiting for By.xpath: //*[@id=&quot;gt-sl-gms-menu&quot;]/table/tbody/tr/td/div/div/div[contains(text(),'Ingl')] to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                                    <pre>
+                                        co.com.bancolombia.certificacion.googletest.tasks.Translate.performAs(Translate.java :27) <br>
+                                        co.com.bancolombia.certificacion.googletest.step_definitions.GoogleTranslateStepDefinitios.theUserTranslatesTheWordFromTo(GoogleTranslateStepDefinitios.java :52) <br>
+                                        cucumber.runner.Runner.runPickle(Runner.java :80) <br>
+                                        org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java :86) <br>
+                                        org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java :38) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java :538) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java :760) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java :460) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java :206) <br>
+                                    </pre>
+                                </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource1750424787320098442.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="fd1137ef18793f7bbe6db317d14c2b317f0c7a1d1dc2f211d13c324feed082bb.png" title="Translate from English to Spanish #1: {word=feature, SourceLenguage=Ingl, targetLenguage=Espa}" width="1034"/>
-                <img src="adfb222c7bad5605c76eba8ad35c96cf17b2b3699e0abd9131ae4f06d4781e3e.png" title="Given that nelson opens his browser al google home page" width="1034"/>
-                <img src="adfb222c7bad5605c76eba8ad35c96cf17b2b3699e0abd9131ae4f06d4781e3e.png" title="nelson opens the Google home page" width="1034"/>
-                <img src="f6d2a4bd60410d519ec8d6e71d79f240a0f0bb3d550d83c003f87c3ea4030de3.png" title="And he goes to google translator" width="1034"/>
-                <img src="31c0965e2496b080a287dd4067646644f638781756be6bf18ea9f0445eaec3c4.png" title="And he goes to google translator" width="1034"/>
-                <img src="adfb222c7bad5605c76eba8ad35c96cf17b2b3699e0abd9131ae4f06d4781e3e.png" title="nelson clicks on Google Apps Button" width="1034"/>
-                <img src="bec07c7b1b77cab71f601b19a9dd17b17a05ed2a4af435ebc511904987afa384.png" title="nelson clicks on Google Apps Button" width="1034"/>
-                <img src="f0d576e768874cc4c38069335b3b1c4713a421586d1e3ad0cc7259a12710b993.png" title="nelson clicks on Google Traslate Button" width="1034"/>
-                <img src="ec5db7eb6d02d19e6bbb1d6f88d8fb6fb72cbb30a4c638ea85baca6206e7b05f.png" title="nelson clicks on Google Traslate Button" width="1034"/>
-                <img src="31c0965e2496b080a287dd4067646644f638781756be6bf18ea9f0445eaec3c4.png" title="When he translates the feature from Ingl to Espa" width="1034"/>
-                <img src="fd1137ef18793f7bbe6db317d14c2b317f0c7a1d1dc2f211d13c324feed082bb.png" title="When he translates the feature from Ingl to Espa" width="1034"/>
-                <img src="ec5db7eb6d02d19e6bbb1d6f88d8fb6fb72cbb30a4c638ea85baca6206e7b05f.png" title="nelson clicks on Source Language Button" width="1034"/>
-                <img src="5d77285f41953cbfda59613c2e70a8d149d4935b2101fe5f3f3d8538c201bcfc.png" title="nelson clicks on Source Language Button" width="1034"/>
-                <img src="5d77285f41953cbfda59613c2e70a8d149d4935b2101fe5f3f3d8538c201bcfc.png" title="nelson clicks on Source Language Option" width="1034"/>
-                <img src="9af2f0db2ccc9650a76b4bcdcc2536dac8d64a1a83a80632ece69610cb14038c.png" title="nelson clicks on Source Language Option" width="1034"/>
-                <img src="9af2f0db2ccc9650a76b4bcdcc2536dac8d64a1a83a80632ece69610cb14038c.png" title="nelson clicks on Target Language Button" width="1034"/>
-                <img src="0618e7bbe24fa649533262c6ca983c6a5b76d2522b8e04828859b8c6bdfa0f0a.png" title="nelson clicks on Target Language Button" width="1034"/>
-                <img src="0618e7bbe24fa649533262c6ca983c6a5b76d2522b8e04828859b8c6bdfa0f0a.png" title="nelson clicks on Target Language Option" width="1034"/>
-                <img src="a76cb5941bec091d519622d0aa411c50817fbcbde6b3c566bef99ecf1e9cdd2f.png" title="nelson clicks on Target Language Option" width="1034"/>
-                <img src="a76cb5941bec091d519622d0aa411c50817fbcbde6b3c566bef99ecf1e9cdd2f.png" title="nelson enters 'feature' into Source Language Text Area" width="1034"/>
-                <img src="c8704d3964d0a17dd9225ab6742dc33d74cd6ea6a6f37801228a551f804efe5e.png" title="nelson enters 'feature' into Source Language Text Area" width="1034"/>
-                <img src="74fc7a0e47017fab9deaf1226dfcd192f47e77c6fbe53e0cddb671f4fe0476a6.png" title="nelson clicks on Traslate Button" width="1034"/>
-                <img src="fd1137ef18793f7bbe6db317d14c2b317f0c7a1d1dc2f211d13c324feed082bb.png" title="nelson clicks on Traslate Button" width="1034"/>
-                <img src="fd1137ef18793f7bbe6db317d14c2b317f0c7a1d1dc2f211d13c324feed082bb.png" title="Then he would see the word queso in the screen" width="1034"/>
-                <img src="c15b6b51526d7eed997dd0510b49daacfd58b5b1eb6512e8a24d9a77ac0aa9c0.png" title="Translate from English to Spanish #2: {word=asu, SourceLenguage=Javan, targetLenguage=Espa}" width="1034"/>
-                <img src="adfb222c7bad5605c76eba8ad35c96cf17b2b3699e0abd9131ae4f06d4781e3e.png" title="Given that nelson opens his browser al google home page" width="1034"/>
-                <img src="adfb222c7bad5605c76eba8ad35c96cf17b2b3699e0abd9131ae4f06d4781e3e.png" title="nelson opens the Google home page" width="1034"/>
-                <img src="f6d2a4bd60410d519ec8d6e71d79f240a0f0bb3d550d83c003f87c3ea4030de3.png" title="And he goes to google translator" width="1034"/>
-                <img src="69f37ac8a9f6a1e5e1a3abd01515b4c2fabc2082c564f44e707d09e29edaf8d0.png" title="And he goes to google translator" width="1034"/>
-                <img src="f6d2a4bd60410d519ec8d6e71d79f240a0f0bb3d550d83c003f87c3ea4030de3.png" title="nelson clicks on Google Apps Button" width="1034"/>
-                <img src="e8784cf3699e516627262744187bb87dc3da35a76b4c83dbf8e928ca7f03d2ae.png" title="nelson clicks on Google Apps Button" width="1034"/>
-                <img src="f0d576e768874cc4c38069335b3b1c4713a421586d1e3ad0cc7259a12710b993.png" title="nelson clicks on Google Traslate Button" width="1034"/>
-                <img src="2bf4fbaa9f3e3ac1c73825c3ac69821d7ae8bae8ca7cc4c1a099e3c3ce02fbd3.png" title="nelson clicks on Google Traslate Button" width="1034"/>
-                <img src="69f37ac8a9f6a1e5e1a3abd01515b4c2fabc2082c564f44e707d09e29edaf8d0.png" title="When he translates the asu from Javan to Espa" width="1034"/>
-                <img src="c15b6b51526d7eed997dd0510b49daacfd58b5b1eb6512e8a24d9a77ac0aa9c0.png" title="When he translates the asu from Javan to Espa" width="1034"/>
-                <img src="69f37ac8a9f6a1e5e1a3abd01515b4c2fabc2082c564f44e707d09e29edaf8d0.png" title="nelson clicks on Source Language Button" width="1034"/>
-                <img src="8138326b57fbb80a766dc69ec69e37f85a0a9454c7cbba34778b325b3ba22470.png" title="nelson clicks on Source Language Button" width="1034"/>
-                <img src="8138326b57fbb80a766dc69ec69e37f85a0a9454c7cbba34778b325b3ba22470.png" title="nelson clicks on Source Language Option" width="1034"/>
-                <img src="39b0b5ef91e174fc93fc46235dc98954aa895512a89cc6ed80c08b3f8fd82bed.png" title="nelson clicks on Source Language Option" width="1034"/>
-                <img src="39b0b5ef91e174fc93fc46235dc98954aa895512a89cc6ed80c08b3f8fd82bed.png" title="nelson clicks on Target Language Button" width="1034"/>
-                <img src="491de7fedf489b04dcdee4e2e6429793233b7a7da2b1b7c510bd171d181dd1eb.png" title="nelson clicks on Target Language Button" width="1034"/>
-                <img src="491de7fedf489b04dcdee4e2e6429793233b7a7da2b1b7c510bd171d181dd1eb.png" title="nelson clicks on Target Language Option" width="1034"/>
-                <img src="b57f3ec55ed7875ea832e73ba2f135145d5b815d696667c6ca88d45972b6856d.png" title="nelson clicks on Target Language Option" width="1034"/>
-                <img src="b57f3ec55ed7875ea832e73ba2f135145d5b815d696667c6ca88d45972b6856d.png" title="nelson enters 'asu' into Source Language Text Area" width="1034"/>
-                <img src="38ed81d7ff38e89511946e0d9ed3e963edafa3385836361dfc0539291933a616.png" title="nelson enters 'asu' into Source Language Text Area" width="1034"/>
-                <img src="67ab85659802b03896f251e5dc212d5b882d3a483284b1f298a49e91cdab93ad.png" title="nelson clicks on Traslate Button" width="1034"/>
-                <img src="c15b6b51526d7eed997dd0510b49daacfd58b5b1eb6512e8a24d9a77ac0aa9c0.png" title="nelson clicks on Traslate Button" width="1034"/>
-                <img src="c15b6b51526d7eed997dd0510b49daacfd58b5b1eb6512e8a24d9a77ac0aa9c0.png" title="Then he would see the word queso in the screen: <span class='success-color'>SUCCESS</span>" width="1034"/>
+                <img src="18b4ee55690645de121173ac7613c01579f6a9ee0b6a6cd9e99c93a7101996e8.png" title="Given that nelson opens his browser al google home page" width="1034"/>
+                <img src="18b4ee55690645de121173ac7613c01579f6a9ee0b6a6cd9e99c93a7101996e8.png" title="nelson opens the Google home page" width="1034"/>
+                <img src="3f3082dd451c0727f37103111a5b798fff142b085b7e229a292d62211676843c.png" title="And he goes to google translator" width="1034"/>
+                <img src="bf0d6c08a3e99baa74b3985a6575d4872d94b06b98d08c9d35f6192a73587bbc.png" title="And he goes to google translator" width="1034"/>
+                <img src="18b4ee55690645de121173ac7613c01579f6a9ee0b6a6cd9e99c93a7101996e8.png" title="nelson clicks on Google Apps Button" width="1034"/>
+                <img src="dbf82b3d1715d82a26bfd74510c59e4b46cfc5678fc716d916d4f45055a3d777.png" title="nelson clicks on Google Apps Button" width="1034"/>
+                <img src="91e3739b011d3fa7a9ac549af32ff5886549c417f1e8eb026ef3ee737fbcc34e.png" title="nelson clicks on Google Traslate Button" width="1034"/>
+                <img src="68d11be4499ce50674c82fffcf784632f651900a9c3b41b7768b62f171d0e032.png" title="nelson clicks on Google Traslate Button" width="1034"/>
+                <img src="bf0d6c08a3e99baa74b3985a6575d4872d94b06b98d08c9d35f6192a73587bbc.png" title="When he translates the asu from javan to espa" width="1034"/>
+                <img src="68d11be4499ce50674c82fffcf784632f651900a9c3b41b7768b62f171d0e032.png" title="nelson clicks on Source Language Button" width="1034"/>
+                <img src="e1e1c66ac3450830f2fa6e9ff7003d3dde7b7a331fbb6a9402c00fbc4e4e2c9e.png" title="nelson clicks on Source Language Button" width="1034"/>
+                <img src="e1e1c66ac3450830f2fa6e9ff7003d3dde7b7a331fbb6a9402c00fbc4e4e2c9e.png" title="nelson clicks on Source Language Option English" width="1034"/>
+                <img src="e1e1c66ac3450830f2fa6e9ff7003d3dde7b7a331fbb6a9402c00fbc4e4e2c9e.png" title="nelson clicks on Source Language Option English" width="1034"/>
+                <img src="900131e67cee041520bab9471439c6b9fa3077785e4c00c4c52d8f3ac047133e.png" title="Given that nelson opens his browser al google home page" width="1034"/>
+                <img src="900131e67cee041520bab9471439c6b9fa3077785e4c00c4c52d8f3ac047133e.png" title="nelson opens the Google home page" width="1034"/>
+                <img src="71d8f1b7c0f2ccc3ec07616a5eb80f2203733b830114c4c33b6aa7301496d21b.png" title="And he goes to google translator" width="1034"/>
+                <img src="c0a58fb1ead859bd56c5e54dba36ef9743fc1ffd9a90043826b33e43bb9083d9.png" title="And he goes to google translator" width="1034"/>
+                <img src="900131e67cee041520bab9471439c6b9fa3077785e4c00c4c52d8f3ac047133e.png" title="nelson clicks on Google Apps Button" width="1034"/>
+                <img src="4d1855b9eae6aac0c39e8d753f843f7c24c09302f447f06122e1bb4eb2bd08ef.png" title="nelson clicks on Google Apps Button" width="1034"/>
+                <img src="40f4a164cf95570d2f4bd5179b03caf5672bc35178e3235daec5c59fe736c23b.png" title="nelson clicks on Google Traslate Button" width="1034"/>
+                <img src="612ef7aabb0b39b2d915976bb6c1885d5045bf244ce4375d13bd898682251236.png" title="nelson clicks on Google Traslate Button" width="1034"/>
+                <img src="612ef7aabb0b39b2d915976bb6c1885d5045bf244ce4375d13bd898682251236.png" title="When he translates the feature from ingl to espa" width="1034"/>
+                <img src="612ef7aabb0b39b2d915976bb6c1885d5045bf244ce4375d13bd898682251236.png" title="nelson clicks on Source Language Button" width="1034"/>
+                <img src="bfc64b756bab623754b5d4b531cfc9ba99b2008b9c7fe9e286c1f59b2c7391f8.png" title="nelson clicks on Source Language Button" width="1034"/>
+                <img src="bfc64b756bab623754b5d4b531cfc9ba99b2008b9c7fe9e286c1f59b2c7391f8.png" title="nelson clicks on Source Language Option English" width="1034"/>
+                <img src="bfc64b756bab623754b5d4b531cfc9ba99b2008b9c7fe9e286c1f59b2c7391f8.png" title="nelson clicks on Source Language Option English: <span class='failing-color'>FAILURE</span>" width="1034"/>
             </div>
         </div>
 

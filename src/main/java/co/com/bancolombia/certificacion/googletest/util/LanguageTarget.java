@@ -9,13 +9,13 @@ public class LanguageTarget {
 		
 		switch (sourceLanguage) {
 		case Language.ENGLISH:
-			return GoogleTranslatePage.SOURCE_LANGUAGE_OPTION;
+			return GoogleTranslatePage.SOURCE_LANGUAGE_OPTION_ENGLISH;
 		
-//		case Language.JAVANES:
-//			return GoogleTranslatePage.SOURCE_LANGUAGE_OPTION_JAVANES;
-//			
+		case Language.JAVANES:
+			return GoogleTranslatePage.SOURCE_LANGUAGE_OPTION_JAVANES;
+			
 		default:
-			return GoogleTranslatePage.SOURCE_LANGUAGE_OPTION;
+			return GoogleTranslatePage.SOURCE_LANGUAGE_OPTION_ENGLISH;
 		}
 	}
 
@@ -24,10 +24,10 @@ public class LanguageTarget {
 		switch (targetLanguage) {
 				
 			case Language.SPANISH:
-				return GoogleTranslatePage.TARGET_LANGUAGE_OPTION;
+				return GoogleTranslatePage.TARGET_LANGUAGE_OPTION_SPANISH;
 				
 			default:
-				return GoogleTranslatePage.TARGET_LANGUAGE_OPTION;
+				return GoogleTranslatePage.TARGET_LANGUAGE_OPTION_SPANISH;
 		}
 	}
 	

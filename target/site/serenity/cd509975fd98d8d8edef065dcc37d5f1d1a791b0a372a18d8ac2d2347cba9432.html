@@ -78,7 +78,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-05-2018 11:31</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-05-2018 19:42</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -113,9 +113,9 @@ To translate a word
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                    <span class="success-color">
+                                    <span class="failing-color">
                                     Translate from English to Spanish
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -132,7 +132,7 @@ To translate a word
     <div class="story-title">
         <h3 class="story-header">Scenario Outline</h3>
 
-        <div class="scenario">Given that nelson opens his browser al google home page<br>And he goes to google translator<br>When he translates the &lt;word&gt; from &lt;SourceLenguage&gt; to &lt;targetLenguage&gt;<br>Then he would see the word queso in the screen</div>
+        <div class="scenario">Given that nelson opens his browser al google home page<br>And he goes to google translator<br>When he translates the &lt;word&gt; from &lt;sourceLenguage&gt; to &lt;targetLenguage&gt;<br>Then he would see the word queso in the screen</div>
 
     </div>
 
@@ -157,21 +157,21 @@ To translate a word
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="test-SUCCESS"><a href="#0">1</a></td>
-                            <td class="test-SUCCESS"><a href="#0">feature</a>
+                        <td class="test-FAILURE"><a href="#0">1</a></td>
+                            <td class="test-FAILURE"><a href="#0">asu</a>
                             </td>
-                            <td class="test-SUCCESS"><a href="#0">Ingl</a>
+                            <td class="test-FAILURE"><a href="#0">javan</a>
                             </td>
-                            <td class="test-SUCCESS"><a href="#0">Espa</a>
+                            <td class="test-FAILURE"><a href="#0">espa</a>
                             </td>
                     </tr>
                     <tr>
-                        <td class="test-SUCCESS"><a href="#1">2</a></td>
-                            <td class="test-SUCCESS"><a href="#1">asu</a>
+                        <td class="test-FAILURE"><a href="#1">2</a></td>
+                            <td class="test-FAILURE"><a href="#1">feature</a>
                             </td>
-                            <td class="test-SUCCESS"><a href="#1">Javan</a>
+                            <td class="test-FAILURE"><a href="#1">ingl</a>
                             </td>
-                            <td class="test-SUCCESS"><a href="#1">Espa</a>
+                            <td class="test-FAILURE"><a href="#1">espa</a>
                             </td>
                     </tr>
                 </tbody>
@@ -195,12 +195,12 @@ To translate a word
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
                     <td width="60" class="step-icon">
                         <a name="0"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                <i class="fa fa-plus-square-o imgstepSection0 failure-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -209,23 +209,16 @@ To translate a word
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block;">
                             <span class="top-level-step">
-                                Translate from English to Spanish #1: {word=feature, SourceLenguage=Ingl, targetLenguage=Espa}
+                                Translate from English to Spanish #1: {word=asu, sourceLenguage=javan, targetLenguage=espa}
                             </span>
                             </a>
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=0">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="fd1137ef18793f7bbe6db317d14c2b317f0c7a1d1dc2f211d13c324feed082bb.png"
-                                         href="fd1137ef18793f7bbe6db317d14c2b317f0c7a1d1dc2f211d13c324feed082bb.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
+                        <td width="100" class="FAILURE-text">
                         </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">14.74s</span></td>
+                    <td width="100"><span class="top-level-step">FAILURE</span></td>
+                    <td width="100"><span class="top-level-step">40.97s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -246,16 +239,16 @@ To translate a word
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=1">
+                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=0">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="adfb222c7bad5605c76eba8ad35c96cf17b2b3699e0abd9131ae4f06d4781e3e.png"
-                                         href="adfb222c7bad5605c76eba8ad35c96cf17b2b3699e0abd9131ae4f06d4781e3e.png"
+                                    <img src="18b4ee55690645de121173ac7613c01579f6a9ee0b6a6cd9e99c93a7101996e8.png"
+                                         href="18b4ee55690645de121173ac7613c01579f6a9ee0b6a6cd9e99c93a7101996e8.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">5.57s</span></td>
+                    <td width="100"><span class="nested-step">20.97s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -272,16 +265,16 @@ To translate a word
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=2">
+                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=1">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="adfb222c7bad5605c76eba8ad35c96cf17b2b3699e0abd9131ae4f06d4781e3e.png"
-                                         href="adfb222c7bad5605c76eba8ad35c96cf17b2b3699e0abd9131ae4f06d4781e3e.png"
+                                    <img src="18b4ee55690645de121173ac7613c01579f6a9ee0b6a6cd9e99c93a7101996e8.png"
+                                         href="18b4ee55690645de121173ac7613c01579f6a9ee0b6a6cd9e99c93a7101996e8.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">4.98s</span></td>
+                    <td width="100"><span class="nested-group-step">19.34s</span></td>
                 </tr>
 
                 <tr class="test-SUCCESS">
@@ -299,16 +292,16 @@ To translate a word
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=3">
+                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=2">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="31c0965e2496b080a287dd4067646644f638781756be6bf18ea9f0445eaec3c4.png"
-                                         href="31c0965e2496b080a287dd4067646644f638781756be6bf18ea9f0445eaec3c4.png"
+                                    <img src="bf0d6c08a3e99baa74b3985a6575d4872d94b06b98d08c9d35f6192a73587bbc.png"
+                                         href="bf0d6c08a3e99baa74b3985a6575d4872d94b06b98d08c9d35f6192a73587bbc.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">4.18s</span></td>
+                    <td width="100"><span class="nested-step">10s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -325,16 +318,16 @@ To translate a word
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=5">
+                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=4">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="bec07c7b1b77cab71f601b19a9dd17b17a05ed2a4af435ebc511904987afa384.png"
-                                         href="bec07c7b1b77cab71f601b19a9dd17b17a05ed2a4af435ebc511904987afa384.png"
+                                    <img src="dbf82b3d1715d82a26bfd74510c59e4b46cfc5678fc716d916d4f45055a3d777.png"
+                                         href="dbf82b3d1715d82a26bfd74510c59e4b46cfc5678fc716d916d4f45055a3d777.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.78s</span></td>
+                    <td width="100"><span class="nested-group-step">2.87s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -351,43 +344,43 @@ To translate a word
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=7">
+                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=6">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="ec5db7eb6d02d19e6bbb1d6f88d8fb6fb72cbb30a4c638ea85baca6206e7b05f.png"
-                                         href="ec5db7eb6d02d19e6bbb1d6f88d8fb6fb72cbb30a4c638ea85baca6206e7b05f.png"
+                                    <img src="68d11be4499ce50674c82fffcf784632f651900a9c3b41b7768b62f171d0e032.png"
+                                         href="68d11be4499ce50674c82fffcf784632f651900a9c3b41b7768b62f171d0e032.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">2.87s</span></td>
+                    <td width="100"><span class="nested-group-step">6.14s</span></td>
                 </tr>
 
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="nested-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
                             <span class="nested-step">
-                                When he translates the feature from Ingl to Espa
+                                When he translates the asu from javan to espa
                             </span>
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=9">
+                        <td width="100" class="FAILURE-text">
+                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=8">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="fd1137ef18793f7bbe6db317d14c2b317f0c7a1d1dc2f211d13c324feed082bb.png"
-                                         href="fd1137ef18793f7bbe6db317d14c2b317f0c7a1d1dc2f211d13c324feed082bb.png"
+                                    <img src="bf0d6c08a3e99baa74b3985a6575d4872d94b06b98d08c9d35f6192a73587bbc.png"
+                                         href="bf0d6c08a3e99baa74b3985a6575d4872d94b06b98d08c9d35f6192a73587bbc.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
-                    <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">4.14s</span></td>
+                    <td width="100"><span class="nested-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-step">9.13s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -404,213 +397,280 @@ To translate a word
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
+                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=9">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="e1e1c66ac3450830f2fa6e9ff7003d3dde7b7a331fbb6a9402c00fbc4e4e2c9e.png"
+                                         href="e1e1c66ac3450830f2fa6e9ff7003d3dde7b7a331fbb6a9402c00fbc4e4e2c9e.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">1.22s</span></td>
+                </tr>
+                <tr class="test-FAILURE">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                nelson clicks on Source Language Option English
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="FAILURE-text">
                                 <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=11">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="5d77285f41953cbfda59613c2e70a8d149d4935b2101fe5f3f3d8538c201bcfc.png"
-                                         href="5d77285f41953cbfda59613c2e70a8d149d4935b2101fe5f3f3d8538c201bcfc.png"
+                                    <img src="e1e1c66ac3450830f2fa6e9ff7003d3dde7b7a331fbb6a9402c00fbc4e4e2c9e.png"
+                                         href="e1e1c66ac3450830f2fa6e9ff7003d3dde7b7a331fbb6a9402c00fbc4e4e2c9e.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.63s</span></td>
+                    <td width="100"><span class="nested-group-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-group-step">7.44s</span></td>
                 </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                nelson clicks on Source Language Option
-                            </span>
+                    <tr class="test-FAILURE">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="4" class="error-message-cell">
+                            <div class="error-message ellipsis"
+                                 title='Element should be enabled exception: The following error occurred: Expected enabled element was not enabled'>
+                                <pre>Element should be enabled exception: The following error occurred: Expected enabled element was not enabled</pre>
+                            </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-9">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-9" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>The following error occurred: Expected enabled element was not enabled</pre>
+                                    </h5>
+                                    co.com.bancolombia.certificacion.googletest.tasks.Translate.performAs(Translate.java
+                                    :27) <br>
+                                    co.com.bancolombia.certificacion.googletest.step_definitions.GoogleTranslateStepDefinitios.theUserTranslatesTheWordFromTo(GoogleTranslateStepDefinitios.java
+                                    :52) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                                    org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java
+                                    :86) <br>
+                                    org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java
+                                    :38) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
+                                    :538) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
+                                    :760) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java
+                                    :460) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java
+                                    :206) <br>
+                            </div>
 
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="stacktraceModalLabel">
+                                        Caused by: org.openqa.selenium.TimeoutException
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                        <pre>Expected condition failed: waiting for By.xpath: //*[@id=&quot;gt-sl-gms-menu&quot;]/table/tbody/tr/td/div/div/div[contains(text(),'Ingl')] to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                                    <pre>
+                                        co.com.bancolombia.certificacion.googletest.tasks.Translate.performAs(Translate.java :27) <br>
+                                        co.com.bancolombia.certificacion.googletest.step_definitions.GoogleTranslateStepDefinitios.theUserTranslatesTheWordFromTo(GoogleTranslateStepDefinitios.java :52) <br>
+                                        cucumber.runner.Runner.runPickle(Runner.java :80) <br>
+                                        org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java :86) <br>
+                                        org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java :38) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java :538) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java :760) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java :460) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java :206) <br>
+                                    </pre>
+                                </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
                         </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=13">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="9af2f0db2ccc9650a76b4bcdcc2536dac8d64a1a83a80632ece69610cb14038c.png"
-                                         href="9af2f0db2ccc9650a76b4bcdcc2536dac8d64a1a83a80632ece69610cb14038c.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
+                    </div>
+                </div>
                         </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.59s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                nelson clicks on Target Language Button
-                            </span>
+                    </tr>
 
-                        </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=15">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="0618e7bbe24fa649533262c6ca983c6a5b76d2522b8e04828859b8c6bdfa0f0a.png"
-                                         href="0618e7bbe24fa649533262c6ca983c6a5b76d2522b8e04828859b8c6bdfa0f0a.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.59s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                nelson clicks on Target Language Option
-                            </span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=17">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="a76cb5941bec091d519622d0aa411c50817fbcbde6b3c566bef99ecf1e9cdd2f.png"
-                                         href="a76cb5941bec091d519622d0aa411c50817fbcbde6b3c566bef99ecf1e9cdd2f.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.55s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                nelson enters 'feature' into Source Language Text Area
-                            </span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=19">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="c8704d3964d0a17dd9225ab6742dc33d74cd6ea6a6f37801228a551f804efe5e.png"
-                                         href="c8704d3964d0a17dd9225ab6742dc33d74cd6ea6a6f37801228a551f804efe5e.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.65s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                nelson clicks on Traslate Button
-                            </span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=21">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="fd1137ef18793f7bbe6db317d14c2b317f0c7a1d1dc2f211d13c324feed082bb.png"
-                                         href="fd1137ef18793f7bbe6db317d14c2b317f0c7a1d1dc2f211d13c324feed082bb.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.67s</span></td>
-                </tr>
-
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
+                                Perform as: nelson
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="FAILURE-text">
+                        </td>
+                    <td width="100"><span class="nested-group-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-group-step">0.01s</span></td>
+                </tr>
+                    <tr class="test-FAILURE">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="4" class="error-message-cell">
+                            <div class="error-message ellipsis"
+                                 title='Element should be enabled exception: The following error occurred: Expected enabled element was not enabled'>
+                                <pre>Element should be enabled exception: The following error occurred: Expected enabled element was not enabled</pre>
+                            </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-10">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-10" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>The following error occurred: Expected enabled element was not enabled</pre>
+                                    </h5>
+                                    co.com.bancolombia.certificacion.googletest.tasks.Translate.performAs(Translate.java
+                                    :27) <br>
+                                    co.com.bancolombia.certificacion.googletest.step_definitions.GoogleTranslateStepDefinitios.theUserTranslatesTheWordFromTo(GoogleTranslateStepDefinitios.java
+                                    :52) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                                    org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java
+                                    :86) <br>
+                                    org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java
+                                    :38) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
+                                    :538) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
+                                    :760) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java
+                                    :460) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java
+                                    :206) <br>
+                            </div>
+
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="stacktraceModalLabel">
+                                        Caused by: org.openqa.selenium.TimeoutException
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                        <pre>Expected condition failed: waiting for By.xpath: //*[@id=&quot;gt-sl-gms-menu&quot;]/table/tbody/tr/td/div/div/div[contains(text(),'Ingl')] to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                                    <pre>
+                                        co.com.bancolombia.certificacion.googletest.tasks.Translate.performAs(Translate.java :27) <br>
+                                        co.com.bancolombia.certificacion.googletest.step_definitions.GoogleTranslateStepDefinitios.theUserTranslatesTheWordFromTo(GoogleTranslateStepDefinitios.java :52) <br>
+                                        cucumber.runner.Runner.runPickle(Runner.java :80) <br>
+                                        org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java :86) <br>
+                                        org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java :38) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java :538) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java :760) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java :460) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java :206) <br>
+                                    </pre>
+                                </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </td>
+                    </tr>
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SKIPPED">
+                    <td width="60" class="step-icon">
+                        <a name="1"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">
                                 Then he would see the word queso in the screen
                             </span>
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=23">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="fd1137ef18793f7bbe6db317d14c2b317f0c7a1d1dc2f211d13c324feed082bb.png"
-                                         href="fd1137ef18793f7bbe6db317d14c2b317f0c7a1d1dc2f211d13c324feed082bb.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
+                        <td width="100" class="SKIPPED-text">
                         </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.45s</span></td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">0.01s</span></td>
                 </tr>
-
-                    </table>
-                    </td>
-                    <tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
                     <td width="60" class="step-icon">
-                        <a name="1"/>
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                        <a name="2"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
+                                <i class="fa fa-plus-square-o imgstepSection2 failure-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
                     <td>
                         <div class="step-description">
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
                                style="display:block;">
                             <span class="top-level-step">
-                                Translate from English to Spanish #2: {word=asu, SourceLenguage=Javan, targetLenguage=Espa}
+                                Translate from English to Spanish #2: {word=feature, sourceLenguage=ingl, targetLenguage=espa}
                             </span>
                             </a>
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=24">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="c15b6b51526d7eed997dd0510b49daacfd58b5b1eb6512e8a24d9a77ac0aa9c0.png"
-                                         href="c15b6b51526d7eed997dd0510b49daacfd58b5b1eb6512e8a24d9a77ac0aa9c0.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
+                        <td width="100" class="FAILURE-text">
                         </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">12.27s</span></td>
+                    <td width="100"><span class="top-level-step">FAILURE</span></td>
+                    <td width="100"><span class="top-level-step">25.92s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
-                    <table id="stepSection1" style="display:none; width:100%">
+                    <table id="stepSection2" style="display:none; width:100%">
 
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -627,16 +687,16 @@ To translate a word
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=25">
+                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=13">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="adfb222c7bad5605c76eba8ad35c96cf17b2b3699e0abd9131ae4f06d4781e3e.png"
-                                         href="adfb222c7bad5605c76eba8ad35c96cf17b2b3699e0abd9131ae4f06d4781e3e.png"
+                                    <img src="900131e67cee041520bab9471439c6b9fa3077785e4c00c4c52d8f3ac047133e.png"
+                                         href="900131e67cee041520bab9471439c6b9fa3077785e4c00c4c52d8f3ac047133e.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">3.95s</span></td>
+                    <td width="100"><span class="nested-step">9.14s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -653,16 +713,16 @@ To translate a word
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=26">
+                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=14">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="adfb222c7bad5605c76eba8ad35c96cf17b2b3699e0abd9131ae4f06d4781e3e.png"
-                                         href="adfb222c7bad5605c76eba8ad35c96cf17b2b3699e0abd9131ae4f06d4781e3e.png"
+                                    <img src="900131e67cee041520bab9471439c6b9fa3077785e4c00c4c52d8f3ac047133e.png"
+                                         href="900131e67cee041520bab9471439c6b9fa3077785e4c00c4c52d8f3ac047133e.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">3.72s</span></td>
+                    <td width="100"><span class="nested-group-step">8.8s</span></td>
                 </tr>
 
                 <tr class="test-SUCCESS">
@@ -680,16 +740,16 @@ To translate a word
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=27">
+                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=15">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="69f37ac8a9f6a1e5e1a3abd01515b4c2fabc2082c564f44e707d09e29edaf8d0.png"
-                                         href="69f37ac8a9f6a1e5e1a3abd01515b4c2fabc2082c564f44e707d09e29edaf8d0.png"
+                                    <img src="c0a58fb1ead859bd56c5e54dba36ef9743fc1ffd9a90043826b33e43bb9083d9.png"
+                                         href="c0a58fb1ead859bd56c5e54dba36ef9743fc1ffd9a90043826b33e43bb9083d9.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">3.63s</span></td>
+                    <td width="100"><span class="nested-step">7.77s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -706,16 +766,16 @@ To translate a word
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=29">
+                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=17">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="e8784cf3699e516627262744187bb87dc3da35a76b4c83dbf8e928ca7f03d2ae.png"
-                                         href="e8784cf3699e516627262744187bb87dc3da35a76b4c83dbf8e928ca7f03d2ae.png"
+                                    <img src="4d1855b9eae6aac0c39e8d753f843f7c24c09302f447f06122e1bb4eb2bd08ef.png"
+                                         href="4d1855b9eae6aac0c39e8d753f843f7c24c09302f447f06122e1bb4eb2bd08ef.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.64s</span></td>
+                    <td width="100"><span class="nested-group-step">1.63s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -732,43 +792,43 @@ To translate a word
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=31">
+                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=19">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="2bf4fbaa9f3e3ac1c73825c3ac69821d7ae8bae8ca7cc4c1a099e3c3ce02fbd3.png"
-                                         href="2bf4fbaa9f3e3ac1c73825c3ac69821d7ae8bae8ca7cc4c1a099e3c3ce02fbd3.png"
+                                    <img src="612ef7aabb0b39b2d915976bb6c1885d5045bf244ce4375d13bd898682251236.png"
+                                         href="612ef7aabb0b39b2d915976bb6c1885d5045bf244ce4375d13bd898682251236.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">2.54s</span></td>
+                    <td width="100"><span class="nested-group-step">5.41s</span></td>
                 </tr>
 
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="nested-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
                             <span class="nested-step">
-                                When he translates the asu from Javan to Espa
+                                When he translates the feature from ingl to espa
                             </span>
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=33">
+                        <td width="100" class="FAILURE-text">
+                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=21">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="c15b6b51526d7eed997dd0510b49daacfd58b5b1eb6512e8a24d9a77ac0aa9c0.png"
-                                         href="c15b6b51526d7eed997dd0510b49daacfd58b5b1eb6512e8a24d9a77ac0aa9c0.png"
+                                    <img src="612ef7aabb0b39b2d915976bb6c1885d5045bf244ce4375d13bd898682251236.png"
+                                         href="612ef7aabb0b39b2d915976bb6c1885d5045bf244ce4375d13bd898682251236.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
-                    <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">4.05s</span></td>
+                    <td width="100"><span class="nested-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-step">8.99s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -785,182 +845,256 @@ To translate a word
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=35">
+                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=22">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="8138326b57fbb80a766dc69ec69e37f85a0a9454c7cbba34778b325b3ba22470.png"
-                                         href="8138326b57fbb80a766dc69ec69e37f85a0a9454c7cbba34778b325b3ba22470.png"
+                                    <img src="bfc64b756bab623754b5d4b531cfc9ba99b2008b9c7fe9e286c1f59b2c7391f8.png"
+                                         href="bfc64b756bab623754b5d4b531cfc9ba99b2008b9c7fe9e286c1f59b2c7391f8.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.63s</span></td>
+                    <td width="100"><span class="nested-group-step">1.21s</span></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                nelson clicks on Source Language Option
+                                nelson clicks on Source Language Option English
                             </span>
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=37">
+                        <td width="100" class="FAILURE-text">
+                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=24">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="39b0b5ef91e174fc93fc46235dc98954aa895512a89cc6ed80c08b3f8fd82bed.png"
-                                         href="39b0b5ef91e174fc93fc46235dc98954aa895512a89cc6ed80c08b3f8fd82bed.png"
+                                    <img src="bfc64b756bab623754b5d4b531cfc9ba99b2008b9c7fe9e286c1f59b2c7391f8.png"
+                                         href="bfc64b756bab623754b5d4b531cfc9ba99b2008b9c7fe9e286c1f59b2c7391f8.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.61s</span></td>
+                    <td width="100"><span class="nested-group-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-group-step">7.38s</span></td>
                 </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                nelson clicks on Target Language Button
-                            </span>
+                    <tr class="test-FAILURE">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="4" class="error-message-cell">
+                            <div class="error-message ellipsis"
+                                 title='Element should be enabled exception: The following error occurred: Expected enabled element was not enabled'>
+                                <pre>Element should be enabled exception: The following error occurred: Expected enabled element was not enabled</pre>
+                            </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-20">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-20" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>The following error occurred: Expected enabled element was not enabled</pre>
+                                    </h5>
+                                    co.com.bancolombia.certificacion.googletest.tasks.Translate.performAs(Translate.java
+                                    :27) <br>
+                                    co.com.bancolombia.certificacion.googletest.step_definitions.GoogleTranslateStepDefinitios.theUserTranslatesTheWordFromTo(GoogleTranslateStepDefinitios.java
+                                    :52) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                                    org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java
+                                    :86) <br>
+                                    org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java
+                                    :38) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
+                                    :538) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
+                                    :760) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java
+                                    :460) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java
+                                    :206) <br>
+                            </div>
 
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="stacktraceModalLabel">
+                                        Caused by: org.openqa.selenium.TimeoutException
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                        <pre>Expected condition failed: waiting for By.xpath: //*[@id=&quot;gt-sl-gms-menu&quot;]/table/tbody/tr/td/div/div/div[contains(text(),'Ingl')] to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                                    <pre>
+                                        co.com.bancolombia.certificacion.googletest.tasks.Translate.performAs(Translate.java :27) <br>
+                                        co.com.bancolombia.certificacion.googletest.step_definitions.GoogleTranslateStepDefinitios.theUserTranslatesTheWordFromTo(GoogleTranslateStepDefinitios.java :52) <br>
+                                        cucumber.runner.Runner.runPickle(Runner.java :80) <br>
+                                        org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java :86) <br>
+                                        org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java :38) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java :538) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java :760) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java :460) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java :206) <br>
+                                    </pre>
+                                </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
                         </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=39">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="491de7fedf489b04dcdee4e2e6429793233b7a7da2b1b7c510bd171d181dd1eb.png"
-                                         href="491de7fedf489b04dcdee4e2e6429793233b7a7da2b1b7c510bd171d181dd1eb.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
+                    </div>
+                </div>
                         </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.59s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                nelson clicks on Target Language Option
-                            </span>
+                    </tr>
 
-                        </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=41">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="b57f3ec55ed7875ea832e73ba2f135145d5b815d696667c6ca88d45972b6856d.png"
-                                         href="b57f3ec55ed7875ea832e73ba2f135145d5b815d696667c6ca88d45972b6856d.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.56s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                nelson enters 'asu' into Source Language Text Area
-                            </span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=43">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="38ed81d7ff38e89511946e0d9ed3e963edafa3385836361dfc0539291933a616.png"
-                                         href="38ed81d7ff38e89511946e0d9ed3e963edafa3385836361dfc0539291933a616.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.61s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                nelson clicks on Traslate Button
-                            </span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=45">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="c15b6b51526d7eed997dd0510b49daacfd58b5b1eb6512e8a24d9a77ac0aa9c0.png"
-                                         href="c15b6b51526d7eed997dd0510b49daacfd58b5b1eb6512e8a24d9a77ac0aa9c0.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.6s</span></td>
-                </tr>
-
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
+                                Perform as: nelson
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="FAILURE-text">
+                        </td>
+                    <td width="100"><span class="nested-group-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-group-step">0.01s</span></td>
+                </tr>
+                    <tr class="test-FAILURE">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="4" class="error-message-cell">
+                            <div class="error-message ellipsis"
+                                 title='Element should be enabled exception: The following error occurred: Expected enabled element was not enabled'>
+                                <pre>Element should be enabled exception: The following error occurred: Expected enabled element was not enabled</pre>
+                            </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-21">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-21" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>The following error occurred: Expected enabled element was not enabled</pre>
+                                    </h5>
+                                    co.com.bancolombia.certificacion.googletest.tasks.Translate.performAs(Translate.java
+                                    :27) <br>
+                                    co.com.bancolombia.certificacion.googletest.step_definitions.GoogleTranslateStepDefinitios.theUserTranslatesTheWordFromTo(GoogleTranslateStepDefinitios.java
+                                    :52) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                                    org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java
+                                    :86) <br>
+                                    org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java
+                                    :38) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
+                                    :538) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
+                                    :760) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java
+                                    :460) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java
+                                    :206) <br>
+                            </div>
+
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="stacktraceModalLabel">
+                                        Caused by: org.openqa.selenium.TimeoutException
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                        <pre>Expected condition failed: waiting for By.xpath: //*[@id=&quot;gt-sl-gms-menu&quot;]/table/tbody/tr/td/div/div/div[contains(text(),'Ingl')] to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                                    <pre>
+                                        co.com.bancolombia.certificacion.googletest.tasks.Translate.performAs(Translate.java :27) <br>
+                                        co.com.bancolombia.certificacion.googletest.step_definitions.GoogleTranslateStepDefinitios.theUserTranslatesTheWordFromTo(GoogleTranslateStepDefinitios.java :52) <br>
+                                        cucumber.runner.Runner.runPickle(Runner.java :80) <br>
+                                        org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java :86) <br>
+                                        org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java :38) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java :538) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java :760) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java :460) <br>
+                                        org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java :206) <br>
+                                    </pre>
+                                </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </td>
+                    </tr>
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SKIPPED">
+                    <td width="60" class="step-icon">
+                        <a name="3"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">
                                 Then he would see the word queso in the screen
                             </span>
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432_screenshots.html#screenshots?screenshot=47">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="c15b6b51526d7eed997dd0510b49daacfd58b5b1eb6512e8a24d9a77ac0aa9c0.png"
-                                         href="c15b6b51526d7eed997dd0510b49daacfd58b5b1eb6512e8a24d9a77ac0aa9c0.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
+                        <td width="100" class="SKIPPED-text">
                         </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.43s</span></td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
-
-                    </table>
-                    </td>
-                    <tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
                     <td colspan="3"></td>
-                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>30.87s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>FAILURE</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>81.28s</em></span></td>
                 </tr>
 
             </table>
