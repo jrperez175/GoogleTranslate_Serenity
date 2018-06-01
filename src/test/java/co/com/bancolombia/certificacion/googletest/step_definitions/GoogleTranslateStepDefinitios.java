@@ -1,8 +1,10 @@
 package co.com.bancolombia.certificacion.googletest.step_definitions;
 
+import static org.hamcrest.CoreMatchers.equalTo;
 import org.openqa.selenium.WebDriver;
 
 import co.com.bancolombia.certificacion.googletest.model.TranslateExpression;
+import co.com.bancolombia.certificacion.googletest.questions.TheResult;
 import co.com.bancolombia.certificacion.googletest.tasks.GoTo;
 import co.com.bancolombia.certificacion.googletest.tasks.OpenTheBrowser;
 import co.com.bancolombia.certificacion.googletest.tasks.Translate;
@@ -14,6 +16,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.Actor;
+import static net.serenitybdd.screenplay.GivenWhenThen.*;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.Managed;
 
@@ -52,10 +55,10 @@ public class GoogleTranslateStepDefinitios {
 		nelson.attemptsTo(Translate.the(new TranslateExpression(word, sourceLanguage, targetLanguage)));
 	}
 
-	@Then("^he would see the word (.*) in the screen$")
+	@Then("^he would see the (.*) in the screen$")
 	public void theUserShouldSeeTheExpectedWord(String expectedWord) throws Exception {
 	    
-	    //throw new PendingException();
+	    nelson.should(seeThat(TheResult.is(), equalTo(expectedWord)));
 		
 	}
 

@@ -13,5 +13,5 @@ Feature: Google Translate
 
     Examples: 
       | word    | sourceLenguage | targetLenguage | expectedWord   |
-      | asu     | Javanés        | Español        | perro          |
-      | feature | Inglés         | Español        | característica |
+      | asu     | Javanes        | Espanol        | perro          |
+      | feature | Ingles         | Espanol        | característica |

@@ -9,5 +9,5 @@ import net.thucydides.core.annotations.DefaultUrl;
 public class GoogleHomePage extends PageObject {
 
 	public static final Target GOOGLE_LOGO = Target.the("Google Home Logo").located(By.id("hplogo"));
-
+	public static final Target GOOGLE_POPUP = Target.the("Google Popup").located(By.xpath("//a[@class='gb_Ba gb_Cd gb_ld']"));
 }
